@@ -5,8 +5,7 @@ const BooksList = ({ isLoading, books }) => {
   console.log(books);
 
   const bookList =
-    books &&
-    books.map((book) => (
+    books.length>0?books.map((book) => (
       <li
         className=" align-items-center  bg-Slate-200 flex flex-row gap-6 justify-center py-3"
         key={book.id}
@@ -22,7 +21,7 @@ const BooksList = ({ isLoading, books }) => {
 <button className="btn btn-outline btn-warning" type="button">Delete</button>
         </div>
       </li>
-    ));
+    )):"there is no  books "
   return (
     <div className="book_list ">
       <h2 className="py-5 text-2xl text_gradient font-bold">Books List</h2>

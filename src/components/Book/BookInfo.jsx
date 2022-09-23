@@ -5,7 +5,7 @@ const BookInfo = () => {
     <div className="text-center">
       <h2 className="py-5 text_gradient text-2xl font-bold">Book Details</h2>
       <div className="alert-secondary alert w-auto" role="alert">
-        There is no post selected yet. Please select!
+        There is no book selected yet. Please select!
       </div>
       {/* <div>
         <p className='fw-bold'>Title:</p>
