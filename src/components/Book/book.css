@@ -1,0 +1,24 @@
+.side-line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: #dfdfdf;
+}
+.book_list{
+  width: 100%;
+display: flex;
+align-content: center;
+flex-direction: column;
+
+justify-content: center;
+text-align: center;
+}
+.text_gradient{
+
+  background: linear-gradient(71.18deg, rgb(0, 34, 255) -27.32%, rgb(0, 34, 255) -16.39%, rgb(81, 121, 254) -7.38%, rgb(165, 237, 182) 30.59%, rgb(250, 232, 90) 46.06%, rgb(253, 172, 62) 62.61%, rgb(255, 92, 0) 75.82%) padding-box text;
+-webkit-text-fill-color: transparent;
+}
