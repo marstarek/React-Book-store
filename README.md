@@ -51,3 +51,4 @@ Tree shakeable
 ## nanoid
 
 An inlined copy of nanoid/nonsecure. Generates a non-cryptographically-secure random ID string. createAsyncThunk uses this by default for request IDs. May also be useful for other cases as well.
+![Alt text](img.png?raw=true "Title")
