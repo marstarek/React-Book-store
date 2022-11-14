@@ -27,28 +27,11 @@ in style iam using tailwindcss and daisyui
 
 ## Type s + enter at any time to create a snapshot of the database
 
-https://readme.so/editor
-
 ## formik
 
 we use formik to create Insert Book form
-With Formik, not only is the battery-pack included, but you're taking advantage of our community's collective learnings in security, accessibility, and user experience research.
-Form-level Validation
-Error Messages
-Wizards and multi-step forms
-Field-level validation
-Array Fields
-API Errors
-Custom Validation
-Internationalization (i18n)
-Auto-saving forms
-Dependent Validation
-Conditional Logic
-Dynamic Fields
-React Native
-Tree shakeable
+
 
 ## nanoid
 
-An inlined copy of nanoid/nonsecure. Generates a non-cryptographically-secure random ID string. createAsyncThunk uses this by default for request IDs. May also be useful for other cases as well.
-![Alt text](img.png?raw=true "Title")
+An inlined copy of nanoid/nonsecure. Generates a non-cryptographically-secure random ID 
